@@ -1,3 +1,6 @@
+@timenow = Time.now - 900
+@timenow = @timenow.strftime("%FT%T")
+@timenow = @timenow.to_s
 
 activate :contentful do |f|
   f.access_token = "b99a46242f4a6e49263f30844bbb28649460e5b89088b97b3c79e14e6da12a8f"
