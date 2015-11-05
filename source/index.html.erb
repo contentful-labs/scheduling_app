@@ -10,3 +10,15 @@ title: Andromeda Magazine
   </div>
 </div>
         
+<div class="container">
+  <% data.magazine.article.each do |id, article| %>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><%= article["title"] %></h3>
+      </div>
+      <div class="panel-body">
+        <%= article["body"] %>
+      </div>
+    </div>
+  <% end %>
+</div>        
