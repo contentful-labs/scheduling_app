@@ -1,4 +1,5 @@
-# contentful_scheduling_app
+# Contentful Scheduling App
+
 Scheduled publishing using Contentful's API and Middleman
 
 To import Entries use:
